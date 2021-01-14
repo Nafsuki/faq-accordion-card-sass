@@ -24,11 +24,12 @@ html {
 }
 
 body {
-  padding: 0;
-  margin: 5rem 0;
+  margin: 0;
+  padding: 10rem;
   width: 100vw;
+  min-width: 37rem;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   background-image: linear-gradient($soft-violet, $soft-blue);
   font: {
     size: 1.2rem;
@@ -41,7 +42,9 @@ body {
 
 .container {
   background-color: #fff;
+  margin: 2vw 5vh;
   width: 95rem;
+  min-width: 30rem;
   height: 50rem;
   border-radius: 2rem;
   display: flex;
